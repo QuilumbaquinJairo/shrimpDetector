@@ -1,0 +1,44 @@
+.header{
+display: flex;
+margin: auto;
+align-items: center;
+justify-content: center;
+color: red;
+    font-weight: bold;
+}
+/*Imagen*/
+.myimage{
+    width: 50%;
+    height: 50%;
+}
+
+/*Contenedores*/
+
+.container{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_buttons{
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    height: 2rem;
+    margin: 1rem;
+}
+
+
+/*Acciones*/
+
+.cambiarColor{
+    background-color: aqua;
+}
